@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.profile_img{
+    width: 150px;
+    border-radius: 5%;
+}
+
+.card{
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-left: 4px solid #E16F7C;
+    background-color: #C1AE7C;
+    color: #08090A;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px;
+}
+
+.about{
+    text-align: center;
+}
+h4{
+    transition: .3s;
+}
+
+h4:hover{
+    color: white;
+    cursor: pointer;
+}
